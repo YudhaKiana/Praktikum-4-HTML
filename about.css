@@ -1,0 +1,18 @@
+.content {
+    padding: 20px; /* Ruang dalam konten halaman */
+}
+
+.content h1 {
+    font-size: 24px; /* Ukuran font judul "About Us" */
+}
+
+.content ul {
+    list-style-type: square; /* Gaya daftar portofolio */
+}
+
+footer {
+    clear:both;
+    background-color: #1d1d1d;
+    padding: 20px;
+    color: #eee;
+}

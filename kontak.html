@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="kontak.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar atau header situs web Anda -->
+    </header>
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p>Silakan isi formulir di bawah ini untuk menghubungi kami.</p>
+        <form action="process_contact.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+    <footer>
+        <!-- Footer situs web Anda -->
+    </footer>
+</body>
+</html>
